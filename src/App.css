@@ -31,8 +31,40 @@ h2 {
   transition: all 0.3s ease;
   height: 400px;
   margin: auto;
+  position: relative; 
+  top: -35px;
 }
 .box:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-  transform: translateY(-10px);
+  transform: translateY(-25px);
+}
+
+.box-content h1 {
+  margin: 0; 
+}
+
+.box-content p {
+  margin: 0; 
+}
+
+.button-space {
+ text-align: center;
+ margin: 20px 0;
+}
+
+button {
+  background-color: rgb(20, 209, 252); 
+  color: rgb(0, 0, 0); 
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  position: relative; /* This is necessary to use the top property */
+  top: -60px;
+}
+
+button:hover {
+  background-color: #89dcf3; 
 }
