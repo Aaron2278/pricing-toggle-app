@@ -8,7 +8,7 @@ function App() {
   const toggleText = toggle ? "Monthly Plans" : "Annual Plans";
 
   const handleToggle = () => {
-    setToggle(!toggle)
+    setToggle(toggle == false)
   }
 
   return (
@@ -18,7 +18,7 @@ function App() {
       <h2>Choose your own price plan!</h2>
       <br/><br/><br/><br/>
       <div className = 'button-space'>
-      <Button toggleText={toggleText} onClick={handleToggle}/>
+        <Button toggleText={toggleText} onClick={handleToggle} />
       </div>
       <div className='box-space'> 
         <div className='box'>
