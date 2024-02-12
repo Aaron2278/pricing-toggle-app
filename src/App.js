@@ -8,7 +8,7 @@ function App() {
   const toggleText = toggle ? "Monthly Plans" : "Annual Plans";
 
   const handleToggle = () => {
-    setToggle(toggle == false)
+    setToggle(toggle === false)
   }
 
   return (
@@ -33,7 +33,7 @@ function App() {
         <div className='box'>
           <div className='box-content'>
             <h1>{toggle ? "$120" : "$15"}</h1>
-            <b>{toggle ? "Save $60" : ""}</b>
+            <b>{toggle ? "Save $60!" : ""}</b>
             <p>{toggle ? "Annually" : "Per Month"}</p>
             <h2>{toggle ? "Standard+ Plan" : "Standard+ Plan"}</h2>
             <b> {toggle ? "Our Standard+ Plan will open even more avenues for your webpage creativity!" : "Our Standard+ Plan will open even more avenues for your webpage creativity!"}</b>
@@ -42,7 +42,7 @@ function App() {
         <div className='box'>
           <div className='box-content'>
             <h1>{toggle ? "$200" : "$25"}</h1>
-            <b>{toggle ? "Save 100$" : ""}</b>
+            <b>{toggle ? "Save $100!" : ""}</b>
             <p>{toggle ? "Annually" : "Per Month"}</p>
             <h2>{toggle ? "Premium Plan" : "Premium Plan"}</h2>
             <b>{toggle ? "The pinnacle of webpage productivity! Our Premium Plan will excel your webpage creation and efficiency 100% guaranteed!" : "The pinnacle of webpage productivity! Our Premium Plan will excel your webpage creation and efficiency 100% guaranteed!"}</b>
