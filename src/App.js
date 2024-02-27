@@ -39,7 +39,7 @@ function App() {
             <b> {toggle ? "Our Standard+ Plan will open even more avenues for your webpage creativity!" : "Our Standard+ Plan will open even more avenues for your webpage creativity!"}</b>
           </div>
         </div>
-        <div className='box'>
+        <div className='box'> l
           <div className='box-content'>
             <h1>{toggle ? "$200" : "$25"}</h1>
             <b>{toggle ? "Save $100!" : ""}</b>
