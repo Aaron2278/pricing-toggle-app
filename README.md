@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Flexible Pricing Web Application
+About
+This React-based web application allows users to choose from different pricing plans. The application features a dynamic user interface where users can toggle between monthly and annual payment options, showcasing various plans with detailed benefits. The app provides immediate visual feedback on the selected plans and includes a route to a thank you page after making a choice.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Technologies Used
+React: A JavaScript library for building user interfaces, managing the application state using hooks like useState.
+React Router: Used for handling routing in this single-page application, enabling navigation between the different views without reloading the page.
+CSS: Styling is applied using CSS, with responsive design elements like flexbox for layout management and CSS transitions for smooth visual effects.
+Getting Started
+Prerequisites
+Ensure you have the following installed before you begin:
 
-## Available Scripts
+Node.js
+npm (Node Package Manager)
+You can check if you have Node and npm installed by running the following commands in your terminal:
 
-In the project directory, you can run:
+bash
+Copy code
+node -v
+npm -v
+Installation
+Clone the repository
 
-### `npm start`
+Clone this repository to your local machine using the following command:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+git clone <repository-url>
+Navigate to the project directory
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Change to the project directory:
 
-### `npm test`
+bash
+Copy code
+cd path-to-your-project
+Install dependencies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Run the following command to install the necessary node modules:
 
-### `npm run build`
+bash
+Copy code
+npm install
+Running the Application
+Start the development server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can start the application by running:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+bash
+Copy code
+npm start
+This command will run the app in development mode. Open http://localhost:3000 to view it in your browser. The page will reload when you make changes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Build for production
 
-### `npm run eject`
+If you need to build the app for production, use the following command:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copy code
+npm run build
+This command builds the app for production to the build folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
