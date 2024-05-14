@@ -1,8 +1,9 @@
-import React from 'react';;
+import React from 'react';
 
-function Button({toggleText,onClick}) {
+function Button({ toggleText, onClick }) {
   return (
-    <button onClick = {onClick}>{toggleText}</button>
-  )
+    <button onClick={onClick}>{toggleText}</button>
+  );
 }
+
 export default Button;

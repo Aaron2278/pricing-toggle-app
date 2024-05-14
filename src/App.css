@@ -1,13 +1,12 @@
 body {
-background-image: linear-gradient(to bottom, orange 25%, white 100%,
-orange 100%);
-min-height: 100vh;
+  background-image: linear-gradient(to bottom, orange 25%, white 100%, orange 100%);
+  min-height: 100vh;
 }
 
 h1 {
   text-align: center;
   font-size: xxx-large; 
-  font-style: oblique
+  font-style: oblique;
 }
 
 h2 {
@@ -34,16 +33,13 @@ h2 {
   position: relative; 
   top: -35px;
 }
+
 .box:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   transform: translateY(-25px);
 }
 
-.box-content h1 {
-  margin: 0; 
-}
-
-.box-content p {
+.box-content h1, .box-content p, .box-content h2, .box-content b {
   margin: 0; 
 }
 
